@@ -30,7 +30,7 @@ namespace SeleniumVsBellatrixAutomatedTests.Tests.PageObjects
             accountPage.LogoutLink.ValidateIsVisible();
             accountPage.LogoutLink.Click();
 
-            accountPage.AssertNavigated();
+            accountPage.AssertUrlPath("/my-account/");
 
             // Assert Logout Link Not Visible
             accountPage.LogoutLink.ValidateIsNotVisible();
