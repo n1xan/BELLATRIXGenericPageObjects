@@ -1,0 +1,3 @@
+[submodule "BELLATRIX"]
+	path = BELLATRIX
+	url = https://github.com/AutomateThePlanet/BELLATRIX.git
