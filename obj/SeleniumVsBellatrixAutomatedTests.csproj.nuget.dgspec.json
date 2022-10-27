@@ -1,9 +1,66 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\SeleniumVsBellatrixAutomatedTests\\SeleniumVsBellatrixAutomatedTests.csproj": {}
+    "C:\\Users\\User\\source\\repos\\BELLATRIXGenericPageObjects\\SeleniumVsBellatrixAutomatedTests.csproj": {}
   },
   "projects": {
+    "C:\\Users\\User\\source\\repos\\BELLATRIXGenericPageObjects\\SeleniumVsBellatrixAutomatedTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\BELLATRIXGenericPageObjects\\SeleniumVsBellatrixAutomatedTests.csproj",
+        "projectName": "SeleniumVsBellatrixAutomatedTests",
+        "projectPath": "C:\\Users\\User\\source\\repos\\BELLATRIXGenericPageObjects\\SeleniumVsBellatrixAutomatedTests.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\BELLATRIXGenericPageObjects\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.plexdev.io/api/nuget/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\User\\source\\repos\\BELLATRIX_GitHub\\BELLATRIX\\src\\Bellatrix.Core\\Bellatrix.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\BELLATRIX_GitHub\\BELLATRIX\\src\\Bellatrix.Core\\Bellatrix.Core.csproj"
+              },
+              "C:\\Users\\User\\source\\repos\\BELLATRIX_GitHub\\BELLATRIX\\src\\Bellatrix.Web\\Bellatrix.Web.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\BELLATRIX_GitHub\\BELLATRIX\\src\\Bellatrix.Web\\Bellatrix.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\User\\source\\repos\\BELLATRIX_GitHub\\BELLATRIX\\src\\Bellatrix.Allure\\Bellatrix.Results.Allure.csproj": {
       "version": "3.6.0",
       "restore": {
@@ -53,29 +110,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Allure.Commons": {
-              "target": "Package",
-              "version": "[3.5.0.73, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -131,53 +176,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "MSTest": {
-              "target": "Package",
-              "version": "[2.2.10, )"
-            },
-            "Microsoft.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[6.0.1, )"
-            },
-            "Microsoft.Extensions.Configuration.Binder": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.Extensions.Configuration.Json": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Newtonsoft.Json.Schema": {
-              "target": "Package",
-              "version": "[3.0.14, )"
-            },
-            "Polly": {
-              "target": "Package",
-              "version": "[7.2.3, )"
-            },
-            "RestSharp": {
-              "target": "Package",
-              "version": "[106.12.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -224,53 +233,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "AWSSDK.Core": {
-              "target": "Package",
-              "version": "[3.7.12.19, )"
-            },
-            "AWSSDK.Rekognition": {
-              "target": "Package",
-              "version": "[3.7.9.6, )"
-            },
-            "AWSSDK.S3": {
-              "target": "Package",
-              "version": "[3.7.9.37, )"
-            },
-            "AWSSDK.SecretsManager": {
-              "target": "Package",
-              "version": "[3.7.2.74, )"
-            },
-            "Microsoft.ApplicationInsights": {
-              "target": "Package",
-              "version": "[2.21.0, )"
-            },
-            "RestSharp": {
-              "target": "Package",
-              "version": "[106.12.0, )"
-            },
-            "mailslurp": {
-              "target": "Package",
-              "version": "[15.13.9, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -326,41 +299,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.TeamFoundationServer.Client": {
-              "target": "Package",
-              "version": "[16.170.0, )"
-            },
-            "Microsoft.TeamFoundationServer.ExtendedClient": {
-              "target": "Package",
-              "version": "[16.170.0, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            },
-            "RestSharp": {
-              "target": "Package",
-              "version": "[106.12.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -410,33 +359,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Azure.AI.FormRecognizer": {
-              "target": "Package",
-              "version": "[3.1.1, )"
-            },
-            "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": {
-              "target": "Package",
-              "version": "[7.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -479,73 +412,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Azure.Storage.Blobs": {
-              "target": "Package",
-              "version": "[12.13.0, )"
-            },
-            "CsvHelper": {
-              "target": "Package",
-              "version": "[28.0.1, )"
-            },
-            "HtmlAgilityPack": {
-              "target": "Package",
-              "version": "[1.11.43, )"
-            },
-            "MSTest": {
-              "target": "Package",
-              "version": "[2.2.10, )"
-            },
-            "Microsoft.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[6.0.1, )"
-            },
-            "Microsoft.Extensions.Configuration.Binder": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
-              "target": "Package",
-              "version": "[6.0.1, )"
-            },
-            "Microsoft.Extensions.Configuration.Json": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "NUnit": {
-              "target": "Package",
-              "version": "[3.13.3, )"
-            },
-            "System.Management": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Unity": {
-              "target": "Package",
-              "version": "[5.11.10, )"
-            },
-            "WindowsAzure.Storage": {
-              "target": "Package",
-              "version": "[9.3.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -595,37 +472,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.TeamFoundationServer.Client": {
-              "target": "Package",
-              "version": "[16.170.0, )"
-            },
-            "Microsoft.TeamFoundationServer.ExtendedClient": {
-              "target": "Package",
-              "version": "[16.170.0, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -678,17 +535,11 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -735,33 +586,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Azure.Identity": {
-              "target": "Package",
-              "version": "[1.6.0, )"
-            },
-            "Azure.Security.KeyVault.Secrets": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -820,17 +655,11 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -877,37 +706,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "MSTest": {
-              "target": "Package",
-              "version": "[2.2.10, )"
-            },
-            "Serilog": {
-              "target": "Package",
-              "version": "[2.11.0, )"
-            },
-            "System.Drawing.Common": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -954,29 +763,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "MSTest": {
-              "target": "Package",
-              "version": "[2.2.10, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -1053,162 +850,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "HtmlAgilityPack": {
-              "target": "Package",
-              "version": "[1.11.43, )"
-            },
-            "MSTest": {
-              "target": "Package",
-              "version": "[2.2.10, )"
-            },
-            "Microsoft.CSharp": {
-              "target": "Package",
-              "version": "[4.7.0, )"
-            },
-            "Selenium.WebDriver": {
-              "target": "Package",
-              "version": "[4.4.0, )"
-            },
-            "System.Composition": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "System.Drawing.Primitives": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            },
-            "System.Text.Encoding.CodePages": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "TextCopy": {
-              "target": "Package",
-              "version": "[6.1.0, )"
-            },
-            "Titanium.Web.Proxy": {
-              "target": "Package",
-              "version": "[3.1.1397, )"
-            },
-            "WebDriverManager": {
-              "target": "Package",
-              "version": "[2.14.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\User\\source\\repos\\SeleniumVsBellatrixAutomatedTests\\SeleniumVsBellatrixAutomatedTests.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\SeleniumVsBellatrixAutomatedTests\\SeleniumVsBellatrixAutomatedTests.csproj",
-        "projectName": "SeleniumVsBellatrixAutomatedTests",
-        "projectPath": "C:\\Users\\User\\source\\repos\\SeleniumVsBellatrixAutomatedTests\\SeleniumVsBellatrixAutomatedTests.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\SeleniumVsBellatrixAutomatedTests\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://packages.plexdev.io/api/nuget/nuget": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\BELLATRIX_GitHub\\BELLATRIX\\src\\Bellatrix.Core\\Bellatrix.Core.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\BELLATRIX_GitHub\\BELLATRIX\\src\\Bellatrix.Core\\Bellatrix.Core.csproj"
-              },
-              "C:\\Users\\User\\source\\repos\\BELLATRIX_GitHub\\BELLATRIX\\src\\Bellatrix.Web\\Bellatrix.Web.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\BELLATRIX_GitHub\\BELLATRIX\\src\\Bellatrix.Web\\Bellatrix.Web.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[17.1.0, )"
-            },
-            "NUnit": {
-              "target": "Package",
-              "version": "[3.13.3, )"
-            },
-            "NUnit.Analyzers": {
-              "target": "Package",
-              "version": "[3.3.0, )"
-            },
-            "NUnit3TestAdapter": {
-              "target": "Package",
-              "version": "[4.2.1, )"
-            },
-            "Selenium.Support": {
-              "target": "Package",
-              "version": "[4.5.1, )"
-            },
-            "Selenium.WebDriver": {
-              "target": "Package",
-              "version": "[4.5.1, )"
-            },
-            "WebDriverManager": {
-              "target": "Package",
-              "version": "[2.16.0, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[3.1.2, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

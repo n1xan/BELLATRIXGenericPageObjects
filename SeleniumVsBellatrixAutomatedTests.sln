@@ -7,31 +7,31 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumVsBellatrixAutomate
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BELLATRIX", "BELLATRIX", "{B357974C-703B-4351-9337-D6211B17A220}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.Web", "..\BELLATRIX_GitHub\BELLATRIX\src\Bellatrix.Web\Bellatrix.Web.csproj", "{591C5C94-B187-485D-BF01-EDC9C3F5BCCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.Web", ".\BELLATRIX\src\Bellatrix.Web\Bellatrix.Web.csproj", "{591C5C94-B187-485D-BF01-EDC9C3F5BCCE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.Core", "..\BELLATRIX_GitHub\BELLATRIX\src\Bellatrix.Core\Bellatrix.Core.csproj", "{C1F59F33-8CAD-4DEB-97D8-6BD264E3993D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.Core", ".\BELLATRIX\src\Bellatrix.Core\Bellatrix.Core.csproj", "{C1F59F33-8CAD-4DEB-97D8-6BD264E3993D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.AWS", "..\BELLATRIX_GitHub\BELLATRIX\src\Bellatrix.AWS\Bellatrix.AWS.csproj", "{171CC66C-34F3-474B-8A8E-07B0256541EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.AWS", ".\BELLATRIX\src\Bellatrix.AWS\Bellatrix.AWS.csproj", "{171CC66C-34F3-474B-8A8E-07B0256541EE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.KeyVault", "..\BELLATRIX_GitHub\BELLATRIX\src\Bellatrix.KeyVault\Bellatrix.KeyVault.csproj", "{11E3BC96-4650-42A0-8D1F-7B8C310999DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.KeyVault", ".\BELLATRIX\src\Bellatrix.KeyVault\Bellatrix.KeyVault.csproj", "{11E3BC96-4650-42A0-8D1F-7B8C310999DE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.API", "..\BELLATRIX_GitHub\BELLATRIX\src\Bellatrix.Api\Bellatrix.API.csproj", "{880D815C-C4AF-46C2-91C6-30B8768BC233}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.API", ".\BELLATRIX\src\Bellatrix.Api\Bellatrix.API.csproj", "{880D815C-C4AF-46C2-91C6-30B8768BC233}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.CognitiveServices", "..\BELLATRIX_GitHub\BELLATRIX\src\Bellatrix.CognitiveServices\Bellatrix.CognitiveServices.csproj", "{30900914-5CB1-4277-8E41-3178254CEFB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.CognitiveServices", ".\BELLATRIX\src\Bellatrix.CognitiveServices\Bellatrix.CognitiveServices.csproj", "{30900914-5CB1-4277-8E41-3178254CEFB9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.DynamicTestCases", "..\BELLATRIX_GitHub\BELLATRIX\src\Bellatrix.DynamicTestCases\Bellatrix.DynamicTestCases.csproj", "{FDA1541D-8580-4518-8770-2DD548A62BD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.DynamicTestCases", ".\BELLATRIX\src\Bellatrix.DynamicTestCases\Bellatrix.DynamicTestCases.csproj", "{FDA1541D-8580-4518-8770-2DD548A62BD1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.ImageRecognition", "..\BELLATRIX_GitHub\BELLATRIX\src\Bellatrix.ImageRecognition\Bellatrix.ImageRecognition.csproj", "{34AAD9BF-218C-4F3C-B017-70C224E6BD38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.ImageRecognition", ".\BELLATRIX\src\Bellatrix.ImageRecognition\Bellatrix.ImageRecognition.csproj", "{34AAD9BF-218C-4F3C-B017-70C224E6BD38}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.Layout", "..\BELLATRIX_GitHub\BELLATRIX\src\Bellatrix.Layout\Bellatrix.Layout.csproj", "{999FCA5B-3E9F-4AA9-90DF-F7C4F1D884E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.Layout", ".\BELLATRIX\src\Bellatrix.Layout\Bellatrix.Layout.csproj", "{999FCA5B-3E9F-4AA9-90DF-F7C4F1D884E9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.Plugins.Screenshots", "..\BELLATRIX_GitHub\BELLATRIX\src\Bellatrix.Plugins.Screenshots\Bellatrix.Plugins.Screenshots.csproj", "{B77CF128-7D96-4142-BE3F-D67B3BDB752F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.Plugins.Screenshots", ".\BELLATRIX\src\Bellatrix.Plugins.Screenshots\Bellatrix.Plugins.Screenshots.csproj", "{B77CF128-7D96-4142-BE3F-D67B3BDB752F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.Plugins.Video", "..\BELLATRIX_GitHub\BELLATRIX\src\Bellatrix.Plugins.Video\Bellatrix.Plugins.Video.csproj", "{D54CA1EA-7957-430A-88FC-E02D456EE4C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.Plugins.Video", ".\BELLATRIX\src\Bellatrix.Plugins.Video\Bellatrix.Plugins.Video.csproj", "{D54CA1EA-7957-430A-88FC-E02D456EE4C7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.Results.Allure", "..\BELLATRIX_GitHub\BELLATRIX\src\Bellatrix.Allure\Bellatrix.Results.Allure.csproj", "{D4FCA7D5-927F-4B3B-96D4-5018076C3285}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.Results.Allure", ".\BELLATRIX\src\Bellatrix.Allure\Bellatrix.Results.Allure.csproj", "{D4FCA7D5-927F-4B3B-96D4-5018076C3285}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.BugReporting", "..\BELLATRIX_GitHub\BELLATRIX\src\Bellatrix.BugReporting\Bellatrix.BugReporting.csproj", "{C0373D34-84BA-4AFC-B236-999D90F4EAD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellatrix.BugReporting", ".\BELLATRIX\src\Bellatrix.BugReporting\Bellatrix.BugReporting.csproj", "{C0373D34-84BA-4AFC-B236-999D90F4EAD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
