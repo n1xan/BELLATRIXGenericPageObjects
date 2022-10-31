@@ -7,3 +7,7 @@
 * `git submodule update`
 * Open `SeleniumVsBellatrixAutomatedTests.sln` in your Visual Studio
 * Build and Execute tests in /Tests
+
+
+# Presentation Slides from TestCon 2022
+* https://www.slideshare.net/NikolayAvramov4/surviving-ui-automation-armageddon-with-bellatrixpptx
